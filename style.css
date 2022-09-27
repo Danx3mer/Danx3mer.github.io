@@ -1,7 +1,12 @@
-.h1 {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#welcomeText {
   background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
-  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.832); /* Black w/opacity/see-through */
+  color: rgb(113, 148, 164);
   font-weight: bold;
   font-size: 80px;
   border: 10px solid #4c4848;
@@ -11,6 +16,19 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   width: wrap;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
+}
+
+#welcomeDiv {
+    /* The image used */
+    background-image: url("code.png");
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
